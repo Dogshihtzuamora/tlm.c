@@ -1,0 +1,23 @@
+TlmMeta charset="UTF-8"
+TlmMeta lang="pt-BR"
+
+TlmTlt "My Page with JS"
+
+Tlmp "Click the button to see the action"
+
+TlmBtn "Click here" id "myButton"
+
+TlmStyle```
+#myButton {
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+}
+```
+
+TlmJs```
+document.getElementById("myButton").onclick = function() {
+  alert("You clicked the button!");
+};
+```
