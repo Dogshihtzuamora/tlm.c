@@ -7,9 +7,9 @@ A C interpreter for `.tlm` files to generate simple web pages with style and Jav
 
 
 1. Clone the repository from GitHub:
-
+```txt
    git clone https://github.com/Dogshihtzuamora/tlm.c
-
+```
 2. Enter the project directory:
 
    cd tlm.c
